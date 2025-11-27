@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kayıp Eşya Ekle - FindIt</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>FindIt</h1>
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="add-lost.html">Kayıp Ekle</a>
+      <a href="add-found.html">Bulunan Ekle</a>
+      <a href="filter.html">Filtrele</a>
+      <a href="contact.html">İletişim</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="form-wrapper">
+      <form id="lostForm">
+        <h2>Kayıp Eşya Ekle</h2>
+
+        <div class="input-group">
+          <label for="title">Başlık</label>
+          <input type="text" id="title" placeholder="Örn: Kaybolan Cüzdan">
+        </div>
+
+        <div class="input-group">
+          <label for="city">Şehir</label>
+          <input type="text" id="city" placeholder="Şehir">
+        </div>
+
+        <div class="input-group">
+          <label for="category">Kategori</label>
+          <select id="category">
+            <option value="cüzdan">Cüzdan</option>
+            <option value="telefon">Telefon</option>
+            <option value="anahtar">Anahtar</option>
+            <option value="çanta">Çanta</option>
+            <option value="diğer">Diğer</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label for="description">Açıklama</label>
+          <textarea id="description" placeholder="Eşyayı detaylı anlat"></textarea>
+        </div>
+
+        <button type="submit">Ekle ve Ana Sayfaya Git</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

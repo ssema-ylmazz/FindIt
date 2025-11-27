@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindIt - Kayıp Eşya Platformu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>FindIt</h1>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="add-lost.html">Kayıp Ekle</a>
+            <a href="add-found.html">Bulunan Ekle</a>
+            <a href="filter.html">Filtrele</a>
+            <a href="contact.html">İletişim</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="ilanlar">
+            <h2>Son Eklenen İlanlar</h2>
+            <div class="cards" id="ilanContainer">
+               <div class="cards" id="ilanContainer">
+    <div class="card">
+        <h3>Kaybolan Cüzdan</h3>
+        <p><strong>Şehir:</strong> Ankara</p>
+        <p><strong>Kategori:</strong> cüzdan</p>
+        <p>Siyah deri cüzdan, içinde kimlik var.</p>
+        <span class="category cüzdan">cüzdan</span>
+    </div>
+    <div class="card">
+        <h3>Bulunan Telefon</h3>
+        <p><strong>Şehir:</strong> İzmir</p>
+        <p><strong>Kategori:</strong> telefon</p>
+        <p>Siyah iPhone, ekran koruyucu var.</p>
+        <span class="category telefon">telefon</span>
+    </div>
+    <div class="card">
+        <h3>Kaybolan Anahtar</h3>
+        <p><strong>Şehir:</strong> İstanbul</p>
+        <p><strong>Kategori:</strong> anahtar</p>
+        <p>Ev anahtarı, kırmızı ipli anahtarlık.</p>
+        <span class="category anahtar">anahtar</span>
+    </div>
+</div>
+ <!-- Örnek ilanlar ve eklenen ilanlar buraya JS ile gelecek -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 FindIt. Tüm hakları saklıdır.</p>
+    </footer>
+    <!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+<!-- Senin JS dosyan -->
+<script src="js/main.js" defer></script>
+
+</body>
+</html>

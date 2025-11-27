@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtrele - FindIt</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/filter.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>FindIt</h1>
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="add-lost.html">Kayıp Ekle</a>
+      <a href="add-found.html">Bulunan Ekle</a>
+      <a href="filter.html">Filtrele</a>
+      <a href="contact.html">İletişim</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="filter-section">
+      <h2>İlanları Filtrele</h2>
+
+      <div class="input-group">
+        <label for="filterCity">Şehir</label>
+        <input type="text" id="filterCity" placeholder="Şehir girin">
+      </div>
+
+      <div class="input-group">
+        <label for="filterCategory">Kategori</label>
+        <select id="filterCategory">
+          <option value="">Tümü</option>
+          <option value="cüzdan">Cüzdan</option>
+          <option value="telefon">Telefon</option>
+          <option value="anahtar">Anahtar</option>
+          <option value="çanta">Çanta</option>
+          <option value="diğer">Diğer</option>
+        </select>
+      </div>
+
+      <button id="applyFilter">Filtrele</button>
+
+      <div class="cards" id="filterContainer">
+        <!-- JS ile filtrelenmiş ilanlar buraya gelecek -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 FindIt. Tüm hakları saklıdır.</p>
+  </footer>
+</body>
+</html>
