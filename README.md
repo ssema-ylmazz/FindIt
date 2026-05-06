@@ -53,7 +53,6 @@ http://127.0.0.1:5500/index.html
 
 ![FindIt Ana Sayfa](screenshots/findIt.png)
 
-
 ## Proje Linki
 
 https://github.com/ssema-ylmazz/FindIt
