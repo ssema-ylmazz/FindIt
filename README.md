@@ -51,7 +51,6 @@ http://127.0.0.1:5500/index.html
 
 ## Ekran Görüntüsü
 
-![FindIt Ana Sayfa](screenshots/findIt.png)
 
 ## Proje Linki
 
