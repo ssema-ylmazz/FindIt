@@ -1,27 +1,60 @@
-# FindIt – Kayıp Eşya Platformu
+# FindIt
 
-FindIt, insanların kaybettikleri veya buldukları eşyaları ilan olarak ekleyebildiği bir web platformudur. 
-Kullanıcılar ilanları görebilir ve filtreleyebilir (şehir/kategori).
+FindIt, kullanıcıların kaybettikleri veya buldukları eşyalar için ilan oluşturabildiği basit bir web platformudur. Kullanıcılar ilanları görüntüleyebilir ve şehir veya kategoriye göre filtreleme yapabilir.
+
+## Proje Hakkında
+
+Bu proje, HTML, CSS ve JavaScript kullanılarak geliştirilmiştir. Amaç, kullanıcıların kayıp veya bulunan eşyalar hakkında ilan paylaşabileceği sade ve kullanımı kolay bir platform oluşturmaktır.
+
+Proje geliştirilirken temel kullanıcı arayüzü tasarımı, responsive yapı, kart tasarımları ve JavaScript ile dinamik işlemler üzerine çalışılmıştır.
 
 ## Özellikler
 
-- Kayıp ve bulunan eşya ilanları ekleme
-- Ana sayfada ilanları kart tasarımı ile listeleme
-- Hover animasyonları ve responsive tasarım
-- HTML, CSS ve JavaScript kullanılarak geliştirilmiştir
+- Kayıp eşya ilanı ekleme
+- Bulunan eşya ilanı ekleme
+- İlanları listeleme
+- Şehir ve kategoriye göre filtreleme
+- Responsive tasarım
+- Hover animasyonları
 
-## Kullanım
+## Kullanılan Teknolojiler
 
-1. `index.html` ana sayfayı açar
-2. `add-lost.html` ile kayıp eşya eklenir
-3. `add-found.html` ile bulunan eşya eklenir
+- HTML
+- CSS
+- JavaScript
 
-## Örnek İlan
+## Proje Yapısı
 
-- Kaybolan Redmi Telefon – İstanbul  
-  Siyah Redmi Note 12, kırmızı kılıf ile
+```bash
+index.html
+add-lost.html
+add-found.html
+style.css
+script.js
+screenshots/
+```
 
-## GitHub
+## Projeyi Çalıştırma
 
-Projeyi görüntülemek ve dosyaları incelemek için:  
-[FindIt Repository](https://github.com/KULLANICI_ADIN/FindIt)
+Projeyi klonlayın:
+
+```bash
+git clone https://github.com/ssema-ylmazz/FindIt.git
+cd FindIt
+```
+
+Daha sonra `index.html` dosyasını tarayıcıda açarak projeyi çalıştırabilirsiniz.
+
+## Proje Adresi
+
+http://127.0.0.1:5500/index.html
+
+## Ekran Görüntüsü
+
+![FindIt Ana Sayfa](screenshots/findIt.png)
+
+
+## Proje Linki
+
+https://github.com/ssema-ylmazz/FindIt
+
